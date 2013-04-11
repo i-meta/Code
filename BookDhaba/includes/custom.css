@@ -1,0 +1,138 @@
+.bookpage{
+
+	padding-left:15px;
+	
+	background-color:#EEEEEE;
+	height:100%;
+	width:80%;
+	float:left;
+	overflow:hidden;
+	
+}
+ 
+.bookcover{
+	background-color:#EEEEEE;
+	height:100%;
+	width:15%;
+	float:left;
+	padding-left:7px;
+}
+
+.review{
+	
+	padding-top:30px;
+	padding-left: 30px;
+	
+	
+
+}
+
+.search_bar{
+	
+	padding:10px 10px 1px 10px;
+}
+.search_bar .search_area{
+	margin-top:7px;
+	width:80%;
+
+}
+.searchbar .search_button {
+	width:20%;
+}
+
+.auth{
+	margin-top:10px;
+	color:white;
+}
+
+.register_form{
+	
+	padding-left:20px;
+}
+
+.login_form{
+	
+	padding-left:20px;
+}
+
+
+/* ---------------- */
+.user_info{
+	
+  background-color: #eeeeee;
+  padding:20px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+	font-size:20px;
+	display:inline-block;
+}
+
+.user_rated_info{
+ padding:20px;
+  background-color: #eeeeee;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+	
+	font-size:20px;
+	display:inline-block;
+}
+/* ---------------- */
+
+.carousel-inner img {
+
+	width:80%;
+	margin:auto;	
+}
+#myCarousel {
+	padding-top:20px;
+}
+
+/* Panels ---------------------- */
+.panel { background: #f2f2f2; border: solid 1px #e6e6e6; margin: 0 0 22px 0; padding: 20px; }
+.panel > :first-child { margin-top: 0; }
+.panel > :last-child { margin-bottom: 0; }
+.panel.callout { background: #2ba6cb; color: #fff; border-color: #2284a1; -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); }
+.panel.callout a { color: #fff; }
+.panel.callout .button {
+	background: white; 
+	border: none; 
+	color: #2ba6cb; 
+	text-shadow: none;
+	}
+.panel.callout .button:hover, .panel.callout .button:focus { background: rgba(255, 255, 255, 0.8); }
+.panel.radius { 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px; 
+	border-radius: 3px; 
+}
+.panel p{
+	font-family: inherit;
+	font-weight: normal; 
+	font-size: 14px; 
+	line-height: 1.6; 
+	margin-bottom: 17px; 
+}
+/* Panel End */
+
+/* Star Rating */
+
+.rating {
+  text-align:left;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+/* End */
