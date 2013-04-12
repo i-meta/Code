@@ -45,7 +45,9 @@ aside,
 details,
 figcaption,
 figure,
-footer,
+footer{
+  background-color: #EEEEEE;
+}
 header,
 hgroup,
 nav,

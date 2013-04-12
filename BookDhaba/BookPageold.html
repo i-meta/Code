@@ -13,14 +13,6 @@
   
         padding-bottom: 40px;
       }
-	  .row{
-	  border-radius:10px;
-
-	  }
-	  .book{
-		padding:20px
-	  }
-    
     </style>
 
     <link href="includes/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
@@ -29,7 +21,9 @@
     <script src="includes/jquery.js"></script>
 
     <SCRIPT LANGUAGE="JavaScript" SRC="includes/bootstrap/js/bootstrap.js"></SCRIPT>
+
     <script>
+    
 
 
 
@@ -55,7 +49,7 @@
           <a class="brand" href="#">Book Dhaba</a>
           <div class="nav-collapse collapse" style="height: 0px;">
             <ul class="nav">
-              <li><a href="#"><i class="icon-home" style="padding-right:5px;"></i>Home</a></li>
+              <li class="active"><a href="#"><i class="icon-home" style="padding-right:5px;"></i>Home</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-book" style="padding-right:5px;"></i>Browse <b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -85,25 +79,29 @@
     <div class="container">
 
       <!-- Main hero unit for a primary marketing message or call to action -->
-
       <div class="row">
+           
 
+      </div>
+      <div class="row">
+      <hr>
         
-        <div class="span3">
-		<div class="book">
+        <div class="bookcover">
           <img src="includes/images/image.png" style="padding-bottom:10px;">  
           <form name="Status">
-          	                   <select name="staus" width="100" style="width:100%">
+          	                   <select name="staus" width="100" style="width: 150px">
           		<option value="Read">Read
 				      <option value="Want to Read">Want to Read
 				      <option value="Currently Reading">Currently Reading
 			       </select>
-              <div style="text-align:center"><button class="btn btn-primary" type="button" data-toggle="modal" data-target="#MyModal"><i class="icon-comment icon-large"></i> Write a Review</button></div>
-                 <div id="MyModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+
+              <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#MyModal" style=" left:55px; bottom:5px;">Write a Review</button>
+                <div id="MyModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-body">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                   
-                 <form name="Review">
+                  <form name="Review">
                      <label>Your review</label>
           
                      <textarea type="text" name ="review" id="review" style="width:100%; height:200px;" wrap=physical>
@@ -128,54 +126,54 @@
 
 
          
-          </div>
+          
         </div>
-        <div class="span9"><div class="book" style="font-family:century gothic;">
-        
-        
+        <div class="bookpage">
+        <table border="4" cellpadding="4" cellspacing="4">
+        <tr>
         	
-        	<h1>Harry Potter and the Sorcerer's Stone</h1>
+        	<h1 style="font-family:century gothic;">Harry Potter and the Sorcerer's Stone</h1>
     
-        
-        	
-        	<h3 >J.K. Rowling</h3>
-    
-        
-        	<h5>Your Rating/Rate This:
+        </tr>
+        <tr>	
+        	<h3 style="font-family:century gothic;">J.K. Rowling</h3>
+        </tr>
+        <tr>
+        	<h5 style="font-family:century gothic;">Your Rating/Rate This:
           <div class="rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
           </div>
           </h5>
-         
-         
-         <h5> 
+         </tr>
+         <tr>
+         <h5 style="font-family:century gothic;"> 
           Average Rating
            <div class="rating">
               <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
           </div>
-         
+          <tr>
           </h5>
-         
-          <h5>Genre: Fantasy</h5>
-         
-         
-          <h5>ISBN: 9788478886548</h5>
-         
-         
-          <h5>Pages: 310</h5>
-         
-         
-          <h5>Publisher: Scholastic Press</h5>
-         
-         
-          <h5>Year of Publishing: 1997</h5>
-         
-         		
-			<p>All Harry knows is a miserable life with the Dursleys, his horrible aunt and uncle, and their abominable son, Dudley. Harry's room is a tiny cupboard under the stairs, and he hasn't had a birthday party in ten years. But all that is about to change when a mysterious letter arrives by owl messenger: a letter with an invitation to a wonderful place he never dreamed existed. </p>
-		      
-        <div style="position:fixed; bottom:100px; right:20px;"><a href="#Top" id="rightdiv" style="cursor: pointer; display: inline;"><i class="icon-arrow-up icon-large"></i></a></div>
+          <tr>
+          <h5 style="font-family:century gothic;">Genre: Fantasy
+          </tr>
+          <tr>
+          <h5 style="font-family:century gothic;">ISBN: 9788478886548
+          </tr>
+          <tr>
+          <h5 style="font-family:century gothic;">Pages: 310
+          </tr>
+          <tr>
+          <h5 style="font-family:century gothic;">Publisher: Scholastic Press
+          </tr>
+          <tr>
+          <h5 style="font-family:century gothic;">Year of Publishing: 1997</h5>
+          </tr>
+          <tr>		
+			<p style="font-family:century gothic;">All Harry knows is a miserable life with the Dursleys, his horrible aunt and uncle, and their abominable son, Dudley. Harry's room is a tiny cupboard under the stairs, and he hasn't had a birthday party in ten years. But all that is about to change when a mysterious letter arrives by owl messenger: a letter with an invitation to a wonderful place he never dreamed existed. </p>
+		  </tr>        
+        </table>  
         </div>
-       </div>
+       
       </div>
         <br>
    <div class="navbar navbar-inverse " style="width:99.5%; margin-left:-16px;">
@@ -186,14 +184,14 @@
 
    		</div>
 	  </div>
-
-   <div class="review" style="font-family:century gothic;">
-        <p>
-        <h5>Reviewer1</h5>
+   </div>
+   <div class="review">
+        
+        <h5 style="font-family:century gothic;">Reviewer1</h5>
+        <p style="font-family:century gothic;">
         hi. My name is Ronald Weasly. I love the Harry Potter books but think they should be called the ronald weasly books.  hi. My name is Ronald Weasly. I love the Harry Potter books but think they should be called the ronald weasly books hi. My name is Ronald Weasly. I love the Harry Potter books but think they should be called the ronald weasly books hi. My name is Ronald Weasly. I love the Harry Potter books but think they should be called the ronald weasly books
         </p>
         <hr>
-
         </div>
  
    
